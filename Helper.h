@@ -10,6 +10,9 @@
 namespace Helper
 {
 
+template <class T>
+std::string ToString(const T &);
+
 struct DateTime
 {
     int D, m, y, H, M, S;
